@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*barra azul*/
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1275px;
+    background-color: rgba(42, 65, 232, 1);
+
+}
+
+.div_A {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    flex: none
+}
+
+.small {
+    font-family: 'Rubik', sans-serif;
+    font-size: 9px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.s1 {
+    margin-left: 50px;
+}
+
+.s2 {
+    margin-left: 50px;
+}
+
+.s3 {
+    margin-left: 60px;
+}
+
+.s4 {
+    margin-left: 677px;
+}
+
+/*menu*/
+
+.div_B {
+    display: flex;
+    width: 1555px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+}
+
+.figure__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.logo {
+    display: flex;
+    width: 25px;
+}
+
+.letras_logo {
+    display: flex;
+    width: 80px;
+    margin-left: 10px;
+}
+
+
+
+.small__menu {
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    color: rgba(75, 77, 79, 1);
+
+}
+
+.div__info_menu {
+    display: flex;
+    position: absolute;
+}
+
+.M1 {
+    padding-left: 200px;
+}
+
+.M2 {
+    padding-left: 20px;
+}
+
+.M3 {
+    padding-left: 20px;
+}
+
+.M4 {
+    padding-left: 20px;
+}
+
+.M5 {
+    padding-left: 20px;
+}
+
+.M6 {
+    padding-left: 20px;
+}
+
+.M7 {
+    padding-left: 250px;
+}
+
+.btn__busqueda {
+    height: 50px;
+    background: rgba(255, 94, 20, 1);
+    font-family: 'Rubik', sans-serif;
+    width: 138px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+}
+
+/*div 1*/
+
+.div_img_1 {
+    background-image: url(./images/hero-bg-imageimg1.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1275px;
+    height: 600px;
+
+}
+
+.h1__img {
+    position: absolute;
+    width: 465px;
+    left: 170px;
+    top: 100px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.h5__img {
+    position: absolute;
+    width: 465px;
+    left: 170px;
+    top: 155px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.div__img_1 {
+    display: flex;
+position: absolute;
+    height: 70px;
+    width: 971px;
+    left: 170px;
+    top: 230px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 1);
+    align-content: center;
+    align-items: center;
+}
+
+.div__img_2 {
+    position: absolute;
+    padding-left: 10px;
+}
+
+.di {
+    display: flex;
+    padding-left: 40px;
+    gap: 30px;
+    height: 40px;
+    ;
+
+}
+
+.div__img_1_input {
+    color: rgba(100, 100, 100, 1);
+    border-radius: 2px;
+    background: rgba(236, 236, 236, 255);
+    width: 160px;
+    outline: none;
+    font-size: 10px;
+    text-align: justify;
+    font-family: 'Rubik', sans-serif;
+}
+
+.div__img_2_input {
+    color: rgba(24, 23, 23, 0.719);
+    border-radius: 2px;
+    background: rgba(236, 236, 236, 255);
+    outline: none;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.div__img_3_input {
+    color: rgba(35, 38, 40, 1);
+    border-radius: 2px;
+    background: rgba(236, 236, 236, 255);
+    width: 400px;
+    outline: none;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.div__img_4_btn {
+    background: rgba(42, 65, 232, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 2px;
+    margin-left: 30px;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    height: 40px;
+    width: 114px;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.div_e{
+    padding-top: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+
+
+}
+
+
+.card img {
+    width: 300px;
+    height: 170px;
+
+
+}
+
+.card p {
+    text-align: justify;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50%;
+    padding: 100px 100px;
+    align-items: flex-start;
+
+}
+
+.card {
+    
+    border-radius: 4px;
+    font-size: 12px;
+    height: 270px;
+    width: 300px;
+    border: 1px solid rgb(183, 182, 182);
+
+}
+
+/* paginas de info completa */
+#card1 {
+    position: absolute;
+    border: 2px solid rgb(30, 39, 132);
+    background-color: rgb(30, 39, 132);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 20px;
+    margin-left: -500px;
+    margin-top: 220px;
+}
+
+#card2 {
+    position: absolute;
+    border: 2px solid rgb(30, 39, 132);
+    background-color: rgb(30, 39, 132);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 20px;
+    margin-left: 200px;
+    margin-top: 220px;
+}
+
+#card3 {
+    position: absolute;
+    border: 2px solid rgb(30, 39, 132);
+    background-color: rgb(30, 39, 132);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 20px;
+    margin-left: 900px;
+    margin-top: 220px;
+}
+
+#card4 {
+    position: absolute;
+    border: 2px solid rgb(30, 39, 132);
+    background-color: rgb(30, 39, 132);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 20px;
+    margin-left: -500px;
+    margin-top: 490px;
+}
+
+#card5 {
+    position: absolute;
+    border: 2px solid rgb(30, 39, 132);
+    background-color: rgb(30, 39, 132);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 20px;
+    margin-left: 200px;
+    margin-top: 490px;
+}
+
+#card6 {
+    position: absolute;
+    border: 2px solid rgb(30, 39, 132);
+    background-color: rgb(30, 39, 132);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 20px;
+    margin-left: 900px;
+    margin-top: 490px;
+}
+
+
+#maine{
+    margin-top: 700px;
+    position: absolute;
+    display: block;
+}

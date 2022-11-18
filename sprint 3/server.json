@@ -1,0 +1,60 @@
+{
+    "inmuebles": [
+        {
+            "id": 1,
+            "img": "https://blog.properati.com.ec/wp-content/uploads/2019/09/cropped-chuttersnap-7BbyM7GbWyw-unsplash-1-540x540.jpg",
+            "tipo_de_inmueble": "HOUSE",
+            "name": "272 S Rexford Dr, Beverly Hills, CA  90212, USA",
+            "pies_cuadrados": "2400 Sq Ft",
+            "precio": 320000000,
+            "estado": "FOR SALE"
+        },
+        {
+            "id": 2,
+            "tipo_de_inmueble": "HOUSE",
+            "img": "https://www.pronsolutions.com/wp-content/uploads/2020/08/services-image-3.jpg ",
+            "name": "250 S Rexford Dr, Beverly Hills, DE  524163, USA",
+            "pies_cuadrados": "2500 Sq Ft",
+            "precio": 520000000,
+            "estado": "FOR SALE"
+        }
+   ,
+    {
+        "id": 3,
+        "tipo_de_inmueble": "HOUSE",
+        "img": "https://www.duffyheating.ie/site/assets/files/1214/boiler-size-blog.1110x1110.jpg",
+        "name": "272 S Rexford Dr, CA  90212, USA",
+        "pies_cuadrados": "1400 Sq Ft",
+        "precio": 220000000,
+        "estado": "FOR SALE"
+    },
+    {
+        "id": 4,
+        "tipo_de_inmueble": "apartment",
+        "img": "https://ecolec.es/wp-content/uploads/2019/11/responsabilidad-ampliada-del-productor-rap-electrodomesticos-ecolec.jpg",
+        "name": " Beverly Hills, CA  90212, USA",
+        "pies_cuadrados": "5500 Sq Ft",
+        "precio": 140000000,
+        "estado": "for rent"
+    },
+    {
+        "id": 5,
+        "tipo_de_inmueble": "apartment",
+        "img": "https://images.unsplash.com/photo-1524061614234-8449637d36ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "name": "272 S Rexford Dr, Beverly Hills, CA  90212, USA",
+        "pies_cuadrados": "2400 Sq Ft",
+        "precio": 320000000,
+        "estado": "for rent"
+    }
+,
+{
+    "id": 6,
+    "tipo_de_inmueble": "apartment",
+    "img": "https://images.squarespace-cdn.com/content/v1/5c17cb5c12b13fec67eef4d5/1610228100379-HZXOGWXEAS4IOSGIKWEY/image-asset.jpeg?format=2500w",
+    "name": "272 S Rexford Dr, Beverly Hills",
+    "pies_cuadrados": "2400 Sq Ft",
+    "precio": 420000000,
+    "estado": "for rent"
+}
+]
+}
